@@ -1,0 +1,15 @@
+<h2>Books</h2>
+<ul>
+  @for (book of bookList(); track $index) {
+    <li (click)="selectedBook = book">Book {{book.seriesNumber}}: {{book.title}}</li>
+  }
+</ul>
+@if (selectedBook !== undefined) {
+  <h2>Chapters</h2>
+  <ul>
+    @for (chapter of selectedBook.chapters; track $index) {
+      <li>{{chapter.title}}</li>
+    }
+  </ul>
+
+}

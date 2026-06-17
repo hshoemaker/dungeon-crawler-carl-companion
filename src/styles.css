@@ -1,1 +1,97 @@
 /* You can add global styles to this file, and also import other style files */
+@import "tailwindcss";
+
+@theme {
+  /* Base */
+  --color-background: #0a0b0f;
+  --color-surface: #131722;
+  --color-surface-elevated: #1b2030;
+  --color-border: #2d3448;
+
+  /* Primary (Carl / neon pink) */
+  --color-primary: #ff2e9a;
+  --color-primary-hover: #ff57ae;
+  --color-primary-muted: #7d1f53;
+
+  /* Secondary (Dungeon glow blue) */
+  --color-secondary: #00d4ff;
+  --color-secondary-hover: #42e2ff;
+  --color-secondary-muted: #0a5e73;
+
+  /* Accent (loot / achievement gold) */
+  --color-accent: #ffcc33;
+  --color-accent-hover: #ffd95c;
+  --color-accent-muted: #7f6420;
+
+  /* Success / warning / danger */
+  --color-success: #00e676;
+  --color-warning: #ff9800;
+  --color-danger: #ff4d4d;
+
+  /* Text */
+  --color-text: #f4f7ff;
+  --color-text-muted: #9ca7c3;
+  --color-text-faint: #66708a;
+
+  /* Special */
+  --color-donut: #ff7ad9;
+  --color-carl-blue: #00d4ff;
+  --color-crawler-gold: #ffcc33;
+  --color-chaos-purple: #a855f7;
+
+  /* Shadows */
+  --shadow-neon-pink:
+    0 0 10px rgb(255 46 154 / 0.5),
+    0 0 20px rgb(255 46 154 / 0.3);
+
+  --shadow-neon-blue:
+    0 0 10px rgb(0 212 255 / 0.5),
+    0 0 20px rgb(0 212 255 / 0.3);
+
+  /* Radius */
+  --radius-panel: 1rem;
+  --radius-card: 0.75rem;
+
+  /* Fonts */
+  --font-display: "Orbitron", sans-serif;
+  --font-body: "Inter", sans-serif;
+}
+
+@utility card {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-card);
+}
+
+@utility card-glow {
+  background: var(--color-surface);
+  border: 1px solid var(--color-primary);
+  box-shadow: var(--shadow-neon-pink);
+}
+
+@utility dungeon-panel {
+  background:
+    linear-gradient(
+      135deg,
+      rgba(255, 46, 154, 0.08),
+      rgba(0, 212, 255, 0.08)
+    ),
+    var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-panel);
+}
+
+@utility loot-text {
+  color: var(--color-accent);
+  font-weight: 700;
+}
+
+@utility achievement {
+  background: linear-gradient(
+    90deg,
+    var(--color-primary),
+    var(--color-secondary)
+  );
+  color: white;
+}
+
