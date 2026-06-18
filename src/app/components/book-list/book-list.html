@@ -1,15 +1,14 @@
 <h2>Books</h2>
-<ul>
+<div>
   @for (book of bookList(); track $index) {
-    <li (click)="selectedBook = book">Book {{book.seriesNumber}}: {{book.title}}</li>
+    <button class="button" (click)="selectedBook = book">Book {{book.seriesNumber}}: {{book.title}}</button>
   }
-</ul>
+</div>
 @if (selectedBook !== undefined) {
-  <h2>Chapters</h2>
+  <h3>Chapters</h3>
   <ul>
     @for (chapter of selectedBook.chapters; track $index) {
       <li>{{chapter.title}}</li>
     }
   </ul>
-
 }

@@ -1,6 +1,18 @@
-<div>
-  <h1 class="text-primary">DCC Companion</h1>
+<main class="container">
+  <nav>
+    <ul>
+      <li class="text-primary">Dungeon Crawler Carl Companion</li>
+    </ul>
+  </nav>
+  <div class="grid">
+    <div>
+      <app-book-list [bookList]="books"></app-book-list>
 
-  <h2>Characters</h2>
-  <app-book-list [bookList]="books"></app-book-list>
-</div>
+    </div>
+    <div>
+      <app-character-list></app-character-list>
+      <app-character-details></app-character-details>
+
+    </div>
+  </div>
+</main>

@@ -5,6 +5,6 @@ export const routes: Routes = [
   {
     path: '',
     component: HomePage,
-    title: 'Home Page'
+    title: 'DCC Companion'
   }
 ];

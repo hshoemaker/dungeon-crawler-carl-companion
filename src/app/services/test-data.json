@@ -1,0 +1,31 @@
+{
+  "characters": [
+    {
+      "name": "Carl",
+      "raceStates": [
+        {
+          "start": "b1c01",
+          "end": "b2c02",
+          "value": "Human"
+        },
+        {
+          "start": "b2c03",
+          "end": "",
+          "value": "Primal"
+        }
+      ],
+      "levelStates": [
+        {
+          "start": "b1c01",
+          "end": "b1c04",
+          "value": 0
+        },
+        {
+          "start": "b1c05",
+          "end": "b1c07",
+          "value": 1
+        }
+      ]
+    }
+  ]
+}
