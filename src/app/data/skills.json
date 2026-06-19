@@ -1,0 +1,34 @@
+{
+  "skills": [
+    {
+      "id": 0,
+      "name": "combat",
+      "description": ""
+    },
+    {
+      "id": 1,
+      "name": "basic electrical repair",
+      "description": ""
+    },
+    {
+      "id": 2,
+      "name": "swimming",
+      "description": ""
+    },
+    {
+      "id": 3,
+      "name": "pugilism",
+      "description": ""
+    },
+    {
+      "id": 4,
+      "name": "smush",
+      "description": ""
+    },
+    {
+      "id": 5,
+      "name": "IED",
+      "description": ""
+    }
+  ]
+}
