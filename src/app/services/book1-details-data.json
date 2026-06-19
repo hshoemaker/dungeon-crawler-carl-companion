@@ -8,6 +8,25 @@
         "Carl",
         "Princess Donut"
       ]
+    },
+    {
+      "chapter": 2,
+      "floor": 1,
+      "timeToFloorCollapse": 5,
+      "characters": [
+        "Carl",
+        "Princess Donut"
+      ]
+    },
+    {
+      "chapter": 3,
+      "floor": 1,
+      "timeToFloorCollapse": 5,
+      "characters": [
+        "Carl",
+        "Princess Donut",
+        "Mordecai"
+      ]
     }
   ]
 }

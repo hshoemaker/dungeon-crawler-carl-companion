@@ -1,13 +1,14 @@
 import { Injectable } from '@angular/core';
 import { Character } from '../models/character';
 import { characters } from './test-data.json' ;
+import { chapters } from './book1-details-data.json';
 
 @Injectable({
   providedIn: 'root',
 })
 export class CharacterService {
   getAvailableCharacters(book: number, chapter: number): string[] {
-    return ["Carl", "Princess Donut"];
+    return chapters.filter(x => x.chapter === chapter)[0]?.characters ?? [];
   }
 
   getCharacterStats(name: string, book: number, chapter: number): Character {

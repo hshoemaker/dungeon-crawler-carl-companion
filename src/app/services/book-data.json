@@ -3,6 +3,7 @@
     {
       "title": "Dungeon Crawler Carl",
       "seriesNumber": 1,
+      "bookEnabled": true,
       "chapters": [
         { "chapterNumber": 1, "title": "Chapter 1" },
         { "chapterNumber": 2, "title": "Part 1 - Chapter 2" },
@@ -54,40 +55,47 @@
         { "chapterNumber": 48, "title": "Epilogue" }
       ]
     },
-  {
-    "title": "Carl's Doomsday Scenario",
-    "seriesNumber": 2,
-    "chapters": []
-  },
-  {
-    "title": "The Dungeon Anarchist's Cookbook",
-    "seriesNumber": 3,
-    "chapters": []
-  },
-  {
-    "title": "The Gate of the Feral Gods",
-    "seriesNumber": 4,
-    "chapters": []
-  },
-  {
-    "title": "The Butcher's Masquerade",
-    "seriesNumber": 5,
-    "chapters": []
-  },
-  {
-    "title": "The Eye of the Bedlam Bride",
-    "seriesNumber": 6,
-    "chapters": []
-  },
-  {
-    "title": "This Inevitable Ruin",
-    "seriesNumber": 7,
-    "chapters": []
-  },
-  {
-    "title": "A Parade of Horribles",
-    "seriesNumber": 8,
-    "chapters": []
-  }
+    {
+      "title": "Carl's Doomsday Scenario",
+      "seriesNumber": 2,
+      "bookEnabled": true,
+      "chapters": []
+    },
+    {
+      "title": "The Dungeon Anarchist's Cookbook",
+      "seriesNumber": 3,
+      "bookEnabled": false,
+      "chapters": []
+    },
+    {
+      "title": "The Gate of the Feral Gods",
+      "seriesNumber": 4,
+      "bookEnabled": false,
+      "chapters": []
+    },
+    {
+      "title": "The Butcher's Masquerade",
+      "seriesNumber": 5,
+      "bookEnabled": false,
+      "chapters": []
+    },
+    {
+      "title": "The Eye of the Bedlam Bride",
+      "seriesNumber": 6,
+      "bookEnabled": false,
+      "chapters": []
+    },
+    {
+      "title": "This Inevitable Ruin",
+      "seriesNumber": 7,
+      "bookEnabled": false,
+      "chapters": []
+    },
+    {
+      "title": "A Parade of Horribles",
+      "seriesNumber": 8,
+      "bookEnabled": false,
+      "chapters": []
+    }
   ]
 }

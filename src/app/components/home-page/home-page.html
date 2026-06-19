@@ -6,13 +6,12 @@
   </nav>
   <div class="grid">
     <div>
-      <app-book-list [bookList]="books"></app-book-list>
+      <app-book-list [bookList]="books" (onSelectChapter)="onChapterSelect($event)" (onSelectBook)="onBookSelect($event)"></app-book-list>
 
     </div>
     <div>
-      <app-character-list></app-character-list>
+      <app-character-list [characters]="characters()"></app-character-list>
       <app-character-details></app-character-details>
-
     </div>
   </div>
 </main>
