@@ -2,31 +2,263 @@
   "chapters": [
     {
       "chapter": 1,
-      "floor": 0,
-      "timeToFloorCollapse": -1,
       "characters": [
         "Carl",
         "Princess Donut"
-      ]
+      ],
+      "dungeonDetails": {
+        "floor": 0,
+        "crawlers": 0,
+        "timeToFloorCollapse": "N/A"
+      }
     },
     {
       "chapter": 2,
-      "floor": 1,
-      "timeToFloorCollapse": 5,
       "characters": [
         "Carl",
         "Princess Donut"
-      ]
+      ],
+      "dungeonDetails": {
+        "floor": 0,
+        "crawlers": 0,
+        "timeToFloorCollapse": "N/A"
+      }
     },
     {
       "chapter": 3,
-      "floor": 1,
-      "timeToFloorCollapse": 5,
       "characters": [
         "Carl",
         "Princess Donut",
         "Mordecai"
-      ]
+      ],
+      "dungeonDetails": {
+        "floor": 0,
+        "crawlers": 0,
+        "timeToFloorCollapse": "N/A"
+      }
+    },
+    {
+      "chapter": 4,
+      "characters": [
+        "Carl",
+        "Princess Donut",
+        "Mordecai"
+      ],
+      "dungeonDetails": {
+        "floor": 0,
+        "crawlers": 0,
+        "timeToFloorCollapse": "N/A"
+      }
+    },
+    {
+      "chapter": 5,
+      "characters": [
+        "Carl",
+        "Princess Donut",
+        "Mordecai"
+      ],
+      "dungeonDetails": {
+        "floor": 0,
+        "crawlers": 0,
+        "timeToFloorCollapse": "N/A"
+      }
+    },
+    {
+      "chapter": 6,
+      "characters": [
+        "Carl",
+        "Princess Donut",
+        "Mordecai"
+      ],
+      "dungeonDetails": {
+        "floor": 0,
+        "crawlers": 0,
+        "timeToFloorCollapse": "N/A"
+      }
+    },
+    {
+      "chapter": 7,
+      "characters": [
+        "Carl",
+        "Princess Donut",
+        "Mordecai"
+      ],
+      "dungeonDetails": {
+        "floor": 0,
+        "crawlers": 0,
+        "timeToFloorCollapse": "N/A"
+      }
+    },
+    {
+      "chapter": 8,
+      "characters": [
+        "Carl",
+        "Princess Donut",
+        "Mordecai"
+      ],
+      "dungeonDetails": {
+        "floor": 0,
+        "crawlers": 0,
+        "timeToFloorCollapse": "N/A"
+      }
+    },
+    {
+      "chapter": 9,
+      "characters": [
+        "Carl",
+        "Princess Donut",
+        "Mordecai"
+      ],
+      "dungeonDetails": {
+        "floor": 0,
+        "crawlers": 0,
+        "timeToFloorCollapse": "N/A"
+      }
+    },
+    {
+      "chapter": 10,
+      "characters": [
+        "Carl",
+        "Princess Donut",
+        "Mordecai"
+      ],
+      "dungeonDetails": {
+        "floor": 0,
+        "crawlers": 0,
+        "timeToFloorCollapse": "N/A"
+      }
+    },
+    {
+      "chapter": 11,
+      "characters": [
+        "Carl",
+        "Princess Donut",
+        "Mordecai"
+      ],
+      "dungeonDetails": {
+        "floor": 0,
+        "crawlers": 0,
+        "timeToFloorCollapse": "N/A"
+      }
+    },
+    {
+      "chapter": 12,
+      "characters": [
+        "Carl",
+        "Princess Donut",
+        "Mordecai"
+      ],
+      "dungeonDetails": {
+        "floor": 0,
+        "crawlers": 0,
+        "timeToFloorCollapse": "N/A"
+      }
+    },
+    {
+      "chapter": 13,
+      "characters": [
+        "Carl",
+        "Princess Donut",
+        "Mordecai"
+      ],
+      "dungeonDetails": {
+        "floor": 0,
+        "crawlers": 0,
+        "timeToFloorCollapse": "N/A"
+      }
+    },
+    {
+      "chapter": 14,
+      "characters": [
+        "Carl",
+        "Princess Donut",
+        "Mordecai"
+      ],
+      "dungeonDetails": {
+        "floor": 0,
+        "crawlers": 0,
+        "timeToFloorCollapse": "N/A"
+      }
+    },
+    {
+      "chapter": 15,
+      "characters": [
+        "Carl",
+        "Princess Donut",
+        "Mordecai"
+      ],
+      "dungeonDetails": {
+        "floor": 0,
+        "crawlers": 0,
+        "timeToFloorCollapse": "N/A"
+      }
+    },
+    {
+      "chapter": 16,
+      "characters": [
+        "Carl",
+        "Princess Donut",
+        "Mordecai"
+      ],
+      "dungeonDetails": {
+        "floor": 0,
+        "crawlers": 0,
+        "timeToFloorCollapse": "N/A"
+      }
+    },
+    {
+      "chapter": 17,
+      "characters": [
+        "Carl",
+        "Princess Donut",
+        "Mordecai"
+      ],
+      "dungeonDetails": {
+        "floor": 0,
+        "crawlers": 0,
+        "timeToFloorCollapse": "N/A"
+      }
+    },
+    {
+      "chapter": 18,
+      "characters": [
+        "Carl",
+        "Princess Donut",
+        "Mordecai"
+      ],
+      "dungeonDetails": {
+        "floor": 0,
+        "crawlers": 0,
+        "timeToFloorCollapse": "N/A"
+      }
+    },
+    {
+      "chapter": 19,
+      "characters": [
+        "Carl",
+        "Princess Donut",
+        "Mordecai"
+      ],
+      "dungeonDetails": {
+        "floor": 0,
+        "crawlers": 0,
+        "timeToFloorCollapse": "N/A"
+      }
+    },
+    {
+      "chapter": 20,
+      "characters": [
+        "Carl",
+        "Princess Donut",
+        "Mordecai",
+        "Frank Q",
+        "Maggie My"
+      ],
+      "dungeonDetails": {
+        "floor": 0,
+        "crawlers": 0,
+        "timeToFloorCollapse": "N/A"
+      }
     }
   ]
 }

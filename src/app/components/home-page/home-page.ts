@@ -5,10 +5,11 @@ import { BookList } from "../book-list/book-list";
 import { CharacterList } from "../character-list/character-list";
 import { CharacterDetails } from "../character-details/character-details";
 import { CharacterService } from '../../services/character-service';
+import { DungeonOverview } from "../dungeon-overview/dungeon-overview";
 
 @Component({
   selector: 'app-home-page',
-  imports: [BookList, CharacterList, CharacterDetails],
+  imports: [BookList, CharacterList, CharacterDetails, DungeonOverview],
   templateUrl: './home-page.html',
   styleUrl: './home-page.css',
 })

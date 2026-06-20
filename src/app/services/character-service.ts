@@ -23,7 +23,9 @@ export class CharacterService {
       crawlerStats: undefined,
       socialStats: undefined,
       skills: undefined,
-      inventory: undefined
+      inventory: undefined,
+      title: '',
+      crawlerKillerCount: undefined
     };
 
     return character;

@@ -1,1 +1,17 @@
-<p>dungeon-overview works!</p>
+<h2>Dungeon Overview</h2>
+<table>
+  <tbody>
+    <tr>
+      <th scope="row">Floor</th>
+      <td>{{floor()}}</td>
+    </tr>
+    <tr>
+      <th scope="row">Time to Floor Collapse</th>
+      <td>{{timeToFloorCollapse()}}</td>
+    </tr>
+    <tr>
+      <th scope="row">Crawlers</th>
+      <td>{{crawlers() | number}}</td>
+    </tr>
+  </tbody>
+</table>

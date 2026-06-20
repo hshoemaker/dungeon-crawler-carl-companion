@@ -1,9 +1,14 @@
-import { Component } from '@angular/core';
+import { DecimalPipe } from '@angular/common';
+import { Component, input } from '@angular/core';
 
 @Component({
   selector: 'app-dungeon-overview',
-  imports: [],
+  imports: [DecimalPipe],
   templateUrl: './dungeon-overview.html',
   styleUrl: './dungeon-overview.css',
 })
-export class DungeonOverview {}
+export class DungeonOverview {
+  floor = input<number>();
+  timeToFloorCollapse = input<string>();
+  crawlers = input<number>();
+}
