@@ -10,6 +10,7 @@ import { Book, Chapter } from '../../models/book';
 export class BookList implements OnInit {
   bookList = input<Book[]>();
   selectedBook: Book | undefined;
+  selectedChapter: Chapter | undefined;
 
   onSelectChapter = output<Chapter>();
   onSelectBook = output<Book>();
@@ -24,6 +25,7 @@ export class BookList implements OnInit {
   }
 
   selectChapter(chapter: Chapter): void {
+    this.selectedChapter = chapter;
     this.onSelectChapter.emit(chapter);
   }
 
